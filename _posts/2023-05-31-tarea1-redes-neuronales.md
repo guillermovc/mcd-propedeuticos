@@ -1,16 +1,6 @@
-author: Guillermo Velazquez
-date: Jun 6, 2023
-geometry: margin=1.5in
-title: "Tarea 1: Redes neuronales"
-subtitle:  |
-    | Curso propedéutico de álgebra lineal 
-    | Prof. Jesús Francisco Espinoza Fierro
-lang: es
-# header-includes:
-#   - \hypersetup{colorlinks=true}
 ---
-
-\newpage
+date: Jun 6, 2023
+---
 
 # 1. Redes Neuronales
 ## 1.1 Definición
@@ -93,28 +83,28 @@ $$
 Matemáticamente, el efecto de sumar estas funciones lineales en cada neurona, equivale a otra función lineal. Esto haría que si dejáramos únicamente nuestra salida con el valor de $z$ es como si toda nuestra red se colapsara en una única neurona. Es por ello que necesitamos que las salidas de las neuronas sufran una transformación no lineal. Esto se hace pasando como argumento el valor de $z$ por una función de activación no lineal. La función de activación utilizada dependerá de la tarea para la que se esté entrenando la red y de los recursos y requerimientos que se tengan.  
 Algunas de las funciones de activación más comunes son:
   
-- Función ReLU
+- Función ReLU  
     $$
         ReLU(z) = max(0, z)
-    $$
+    $$  
     <!-- <p align="center">
         <img width=300 height=200 src="https://i.imgur.com/gKA4kA9.jpg"/>
     </p> -->
     ![Función ReLU](https://i.imgur.com/gKA4kA9.jpg =300x200)
 
-- Función sigmoide
+- Función sigmoide  
     $$
         \sigma(z) = \frac{1} {1 + e^{-z}}
-    $$
+    $$  
     <!-- <p align="center">
         <img width=300 height=200 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZMBezErHGw_foaI69vWIGPvjVnUbLsl2F4Q&usqp=CAU"/>
     </p> -->
     ![Función sigmoide](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZMBezErHGw_foaI69vWIGPvjVnUbLsl2F4Q&usqp=CAU)
 
-- Función softmax
+- Función softmax  
     $$
         \sigma(z_i) = \frac{e^{z_{i}}}{\sum_{j=1}^K e^{z_{j}}} \ \ \ for\ i=1,2,\dots,K
-    $$
+    $$  
     <!-- <p align="center">
         <img width=300 height=200 src="https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-23_at_11.56.35_PM_yh1VO82.png"/>
     </p> -->

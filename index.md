@@ -1,7 +1,3 @@
 ---
-title: Welcome to my blog
+title: Proyectos de la maestría en ciencia de datos
 ---
-
-# Main blog
-## Subtitle
-Hello, world. Welcome!

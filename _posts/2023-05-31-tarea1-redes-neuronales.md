@@ -108,7 +108,7 @@ Algunas de las funciones de activación más comunes son:
     <!-- <p align="center">
         <img width=300 height=200 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZMBezErHGw_foaI69vWIGPvjVnUbLsl2F4Q&usqp=CAU"/>
     </p> -->
-    ![Función sigmoide](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZMBezErHGw_foaI69vWIGPvjVnUbLsl2F4Q&usqp=CAU)
+    ![Función sigmoide](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZMBezErHGw_foaI69vWIGPvjVnUbLsl2F4Q&usqp=CAU =300x200)
 
 - Función softmax
     $$
@@ -117,7 +117,7 @@ Algunas de las funciones de activación más comunes son:
     <!-- <p align="center">
         <img width=300 height=200 src="https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-23_at_11.56.35_PM_yh1VO82.png"/>
     </p> -->
-    ![Función softmax](https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-23_at_11.56.35_PM_yh1VO82.png)
+    ![Función softmax](https://production-media.paperswithcode.com/methods/Screen_Shot_2020-05-23_at_11.56.35_PM_yh1VO82.png =300x200)
 
 
 Hasta aquí tenemos el proceso mediante el cuál nuestra red neuronal toma los datos de entrada, los procesa utilizando las operaciones de sus capas y nos entrega una salida. Sin embargo, en un inicio los valores de los pesos y los sesgos serán aleatorios, por lo que seguramente no obtendremos el desempeño esperado en la tarea para la que estemos aplicando la red. Es por ello que necesitamos hacer uso de algún metodo que permita mejorar estos parámetros, a lo que llamamos aprendizaje.
